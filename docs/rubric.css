@@ -1,0 +1,7 @@
+table {
+   margin: 1em 1em;
+}
+
+tr td, tr th {
+   width: 5em;
+}
