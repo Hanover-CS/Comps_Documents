@@ -5,3 +5,7 @@ table {
 tr td, tr th {
    width: 5em;
 }
+
+tr:nth-child(2n) {
+   background-color: #d4e1f7;
+}
