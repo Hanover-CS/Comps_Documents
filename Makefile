@@ -12,6 +12,9 @@ $(PDFS): docs/%.pdf: %.md $(TEXTEMPLATE)
 	mkdir -p $(@D)
 	pandoc -o $@ --template=$(TEXTEMPLATE) -t latex --listings --filter ./makeTex.hs $<
 
+docs/development_rubric.pdf: development_rubric.md
+	pandoc -o $@ --template=templateRubric.tex -t latex --listings --filter ./makeTex.hs $<
+
 site: $(HTMLFILES) $(PDFS)
 
 all: site

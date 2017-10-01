@@ -1,9 +1,12 @@
-# Software Development Proficiency
+---
+title: Software Development Proficiency
+geometry: [landscape]
+---
 
 Each level of achievement builds on the previous level, from left to right.
 
 | Proficiencies (weight)   | Below Expectations       | Meets Most Expectations        | Exceeds Expectations       |
-| :---			  | :-- 					 | :-- 						      | :-- 					   |
+| :------------            | :----------------------- | :----------------------------- | :------------------------- |
 | Version Control (10) | Few commits are made, often addressing multiple concerns (not atomic). | Each commit addresses just one project concern (atomic). | Each commit message succinctly describes the purpose of the commit. |
 | Issue Management (10) | Few issues are made, with limited comments, labels and milestones. | Effectively uses issues to organize the work, including labels and helpful comments. | Issues are linked to commits via the commit messages, and milestones are used to further organize the work. |
 | Readability: Layout (5) | Contains many long lines of code. | Lacks consistent indentation/spacing rules. | Code has clear and consistent indenting and spacing. |
