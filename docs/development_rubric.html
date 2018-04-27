@@ -48,9 +48,9 @@
 </tr>
 <tr class="odd">
 <td align="left">Readability: Layout (5)</td>
-<td align="left">Contains many long lines of code.</td>
-<td align="left">Lacks consistent indentation/spacing rules.</td>
-<td align="left">Code has clear and consistent indenting and spacing.</td>
+<td align="left">Contains many long lines of code or blocks of commented-out code which should have been deleted.</td>
+<td align="left">Lacks consistent and appropriate indentation/spacing rules.</td>
+<td align="left">Code has consistent and appropriate indenting and spacing that reflects the logical structure of the code.</td>
 </tr>
 <tr class="even">
 <td align="left">Readability: Logic (10)</td>
@@ -65,13 +65,25 @@
 <td align="left">The project as a whole is organized in a sensible file structure.</td>
 </tr>
 <tr class="even">
-<td align="left">Code Modularity (15)</td>
-<td align="left">The code is barely decomposed into modules/classes.</td>
-<td align="left">The code is properly modular and the modules/classes have clearly-specified roles and responsibilities.</td>
-<td align="left">The inter-module interactions and module interfaces are clearly specified in the documentation/comments.</td>
+<td align="left">Architecture (5)</td>
+<td align="left">There is limited or no description of the overall architecture and module interactions.</td>
+<td align="left">There is a document adequately describing the architecture and module interactions</td>
+<td align="left">There is an extensive description of the architecture and module interactions using a modelling language such as UML.</td>
 </tr>
 <tr class="odd">
-<td align="left">Maintainability: Functional Decomposition (15)</td>
+<td align="left">Code Modularity (10)</td>
+<td align="left">The code is barely decomposed into modules/classes.</td>
+<td align="left">The code is decomposed into suitable modules with well-defined responsibilities.</td>
+<td align="left">The role and function of each module is clearly documented in the module comments.</td>
+</tr>
+<tr class="even">
+<td align="left">Maintainability: Data Modelling (5)</td>
+<td align="left">Data is stored in individual variables without using appropriate data structures to organize it.</td>
+<td align="left">Common data structures such as arrays and objects are appropriately used to organize the project data.</td>
+<td align="left">The data representation model and reasons for the corresponding data structure choices are clearly described in a suitable document.</td>
+</tr>
+<tr class="odd">
+<td align="left">Maintainability: Functional Decomposition (10)</td>
 <td align="left">The project has frequent code duplication and functions without a clear, singular purpose.</td>
 <td align="left">Code duplication is usually avoided by use of functional decomposition.</td>
 <td align="left">Each function has a clear, singular purpose. Long functions are avoided.</td>

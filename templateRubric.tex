@@ -1,4 +1,4 @@
-\documentclass[10pt,letter]{article}
+\documentclass[12pt,letter]{article}
 \usepackage{bookman}
 \usepackage{amssymb,amsmath}
 \usepackage[T1]{fontenc}
@@ -37,18 +37,14 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
-$if(title)$
-\title{$title$$if(subtitle)$\\\vspace{0.5em}{\large $subtitle$}$endif$}
-$endif$
-$if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
-$endif$
-\date{$date$}
-
 \begin{document}
-
 \newcommand{\makespace}{\vspace*{2.8cm}}
 \lstset{basicstyle=\footnotesize}
+$if(title)$
+\begin{center}
+{\Large \textbf{$title$}}
+\end{center}
+$endif$
 
 $if(abstract)$
 \begin{abstract}
