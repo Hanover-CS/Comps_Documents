@@ -17,100 +17,84 @@
 <div id="header">
 <h1 class="title">Software Development Proficiency</h1>
 </div>
-<p>Each level of achievement builds on the previous level, from left to right.</p>
-<table style="width:100%;">
+<table>
 <colgroup>
-<col width="14%" />
-<col width="25%" />
-<col width="31%" />
-<col width="27%" />
+<col style="width: 19%" />
+<col style="width: 35%" />
+<col style="width: 44%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Proficiencies (weight)</th>
-<th align="left">Below Expectations</th>
-<th align="left">Meets Most Expectations</th>
-<th align="left">Exceeds Expectations</th>
+<th style="text-align: left;">Proficiencies (weight)</th>
+<th style="text-align: left;">Below Expectations</th>
+<th style="text-align: left;">Meets Expectations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Version Control (10)</td>
-<td align="left">Few commits are made, often addressing multiple concerns (not atomic).</td>
-<td align="left">Each commit addresses just one project concern (atomic).</td>
-<td align="left">Each commit message succinctly describes the purpose of the commit.</td>
+<td style="text-align: left;">Testing (10)</td>
+<td style="text-align: left;">Insufficient automated tests.</td>
+<td style="text-align: left;">Automated unit testing code is adequate for the given project.</td>
 </tr>
 <tr class="even">
-<td align="left">Issue Management (10)</td>
-<td align="left">Few issues are made, with limited comments, labels and milestones.</td>
-<td align="left">Effectively uses issues to organize the work, including labels and helpful comments.</td>
-<td align="left">Issues are linked to commits via the commit messages, and milestones are used to further organize the work.</td>
+<td style="text-align: left;">Naming (10)</td>
+<td style="text-align: left;">Most names used are short and/or unhelpful.</td>
+<td style="text-align: left;">Modules/functions/variables are clearly named to reflect their functionality (self-documenting code).</td>
 </tr>
 <tr class="odd">
-<td align="left">Readability: Layout (5)</td>
-<td align="left">Contains many long lines of code or blocks of commented-out code which should have been deleted.</td>
-<td align="left">Lacks consistent and appropriate indentation/spacing rules.</td>
-<td align="left">Code has consistent and appropriate indenting and spacing that reflects the logical structure of the code.</td>
+<td style="text-align: left;">Data Modelling (10)</td>
+<td style="text-align: left;">Program data is stored in individual variables without using appropriate data structures to organize it.</td>
+<td style="text-align: left;">Custom classes and common data structures such as arrays and dictionaries are appropriately used to organize the program data.</td>
 </tr>
 <tr class="even">
-<td align="left">Readability: Logic (10)</td>
-<td align="left">Most names used are short and unhelpful.</td>
-<td align="left">The naming of code elements does reflect their purposes.</td>
-<td align="left">Modules/functions/variables are clearly named to reflect their functionality (self-documenting code).</td>
+<td style="text-align: left;">Functional Decomposition (10)</td>
+<td style="text-align: left;">The project has few functions or functions lack a clear, singular purpose.</td>
+<td style="text-align: left;">Functions have a clear, singular purpose. Long functions are avoided.</td>
 </tr>
 <tr class="odd">
-<td align="left">Project Structure (5)</td>
-<td align="left">The code consists of a few very large files containing disparate elements.</td>
-<td align="left">The code is comprised of separate, well-focused files, none of them too large.</td>
-<td align="left">The project as a whole is organized in a sensible file structure.</td>
+<td style="text-align: left;">Code Duplication (10)</td>
+<td style="text-align: left;">The project has frequent instances of code duplication</td>
+<td style="text-align: left;">Code duplication is generally avoided.</td>
 </tr>
 <tr class="even">
-<td align="left">Architecture (5)</td>
-<td align="left">There is limited or no description of the overall architecture and module interactions.</td>
-<td align="left">There is a document adequately describing the architecture and module interactions</td>
-<td align="left">There is an extensive description of the architecture and module interactions using a modelling language such as UML.</td>
+<td style="text-align: left;">Code Modularity (10)</td>
+<td style="text-align: left;">The code is barely decomposed into modules/classes.</td>
+<td style="text-align: left;">The code is for the most part decomposed into suitable modules/classes with well-defined responsibilities.</td>
 </tr>
 <tr class="odd">
-<td align="left">Code Modularity (10)</td>
-<td align="left">The code is barely decomposed into modules/classes.</td>
-<td align="left">The code is decomposed into suitable modules with well-defined responsibilities.</td>
-<td align="left">The role and function of each module is clearly documented in the module comments.</td>
+<td style="text-align: left;">Version Control (10)</td>
+<td style="text-align: left;">Few commits are made, often addressing multiple concerns (not atomic).</td>
+<td style="text-align: left;">Frequents commits are made, each addressing just one project concern (atomic).</td>
 </tr>
 <tr class="even">
-<td align="left">Maintainability: Data Modelling (5)</td>
-<td align="left">Data is stored in individual variables without using appropriate data structures to organize it.</td>
-<td align="left">Common data structures such as arrays and objects are appropriately used to organize the project data.</td>
-<td align="left">The data representation model and reasons for the corresponding data structure choices are clearly described in a suitable document.</td>
+<td style="text-align: left;">Issue Management (5)</td>
+<td style="text-align: left;">Issues are not used effectively.</td>
+<td style="text-align: left;">Issues are used effectively to organize the work.</td>
 </tr>
 <tr class="odd">
-<td align="left">Maintainability: Functional Decomposition (10)</td>
-<td align="left">The project has frequent code duplication and functions without a clear, singular purpose.</td>
-<td align="left">Code duplication is usually avoided by use of functional decomposition.</td>
-<td align="left">Each function has a clear, singular purpose. Long functions are avoided.</td>
+<td style="text-align: left;">Formatting (5)</td>
+<td style="text-align: left;">Contains many long lines of code or blocks of commented-out code which should have been deleted.</td>
+<td style="text-align: left;">Code has consistent and appropriate indenting and spacing that reflects the logical structure of the code.</td>
 </tr>
 <tr class="even">
-<td align="left">Maintainability: Testing (10)</td>
-<td align="left">No visible automated tests.</td>
-<td align="left">Automated tests are present but occasionally insufficient.</td>
-<td align="left">Has adequate automated unit testing code for public functions.</td>
+<td style="text-align: left;">Project Structure (5)</td>
+<td style="text-align: left;">The code consists of a few very large files containing disparate elements.</td>
+<td style="text-align: left;">The code is comprised of separate, well-focused files, none of them too large.</td>
 </tr>
 <tr class="odd">
-<td align="left">Maintainability: Resource Separation (5)</td>
-<td align="left">Special constants and string literals are used directly in the program logic.</td>
-<td align="left">Special constants and string literals are named and are separated from the program logic.</td>
-<td align="left">Data resources are stored in a suitable data format and separated from the business logic of the project.</td>
+<td style="text-align: left;">Resource Separation (5)</td>
+<td style="text-align: left;">Literal values are frequently used directly in the program.</td>
+<td style="text-align: left;">Literal values are typically stored in constant variables instead of being used directly.</td>
 </tr>
 <tr class="even">
-<td align="left">Code Documentation (10)</td>
-<td align="left">The code contains limited or unhelpful comments.</td>
-<td align="left">The modules and functions are adequately documented in comments; inline comments are present where needed.</td>
-<td align="left">Module and function documenting comments are comprehensive and follow the documentation standard for the given language.</td>
+<td style="text-align: left;">Inline Comments (5)</td>
+<td style="text-align: left;">Code contains unhelpful inline comments, or complex code lacks explanatory inline comments.</td>
+<td style="text-align: left;">Explanatory inline comments are used when and only when needed to clarify complex code segments.</td>
 </tr>
 <tr class="odd">
-<td align="left">User Documentation (5)</td>
-<td align="left">No user documentation.</td>
-<td align="left">Includes installation instructions and very basic user’s guide.</td>
-<td align="left">Includes an extensive user’s guide in an appropriately sharable form (e.g., webpage).</td>
+<td style="text-align: left;">Code Documentation (5)</td>
+<td style="text-align: left;">Modules and functions are in general not documented.</td>
+<td style="text-align: left;">Most modules and functions are adequately documented.</td>
 </tr>
 </tbody>
 </table>
